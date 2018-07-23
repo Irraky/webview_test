@@ -1,11 +1,18 @@
 # webview
 
-> An electron-vue project
+> Test of webview using socket.io-unity
 
 #### Build Setup
 
 ``` bash
 # install dependencies
+cd ..
+git clone https://github.com/Irraky/socket.io-unity
+cd socket.io-unity
+npm install
+npm run dev
+cd ../webview_test (or the name you choose to clone the project)
+Change src of webview in LandingPage.vue line 9 with
 npm install
 
 # serve with hot reload at localhost:9080
